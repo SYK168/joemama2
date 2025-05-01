@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;url=https://SYK168.github.io/joemama4/">
     <title>Proxy Site</title>
     <style>
         body {
@@ -19,45 +18,28 @@
             text-align: center;
         }
 
-        .container {
-            max-width: 900px;
-            padding: 20px;
-            background-color: #222;
-            border-radius: 10px;
-            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
-            text-align: center;
-        }
-
-        .title {
-            font-size: 30px;
-            margin-bottom: 20px;
+        iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
         }
 
         .message {
-            font-size: 16px;
-        }
-
-        .loading {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px;
             color: #f0f0f0;
-            font-size: 14px;
-            font-style: italic;
-            margin-top: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="title">Redirecting...</div>
-        <div class="message">Please wait while we load your content.</div>
-        <div class="loading">If nothing happens, <a href="https://SYK168.github.io/joemama4/" style="color: #2fa1d6; text-decoration: none;">click here</a> to go directly.</div>
-    </div>
-
-    <script>
-        // Optional: Delay redirection for a better user experience
-        setTimeout(function() {
-            window.location.href = "https://SYK168.github.io/joemama4/";
-        }, 3000);
-    </script>
+    <div class="message">Loading... If you see this page for too long, <a href="https://SYK168.github.io/joemama4/" style="color: #2fa1d6; text-decoration: none;">click here</a>.</div>
+    <iframe src="https://SYK168.github.io/joemama4/"></iframe>
 </body>
 </html>
 
